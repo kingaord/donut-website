@@ -18,7 +18,7 @@ namespace DonutWebsite
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            using (SqlConnection sqlCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Ola\source\repos\WebApplication2\WebApplication2\App_Data\Database1.mdf;Integrated Security=True"))
+            using (SqlConnection sqlCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Ola\source\repos\DonutWebsite\DonutWebsite\App_Data\Database1.mdf;Integrated Security=True"))
             {
                 sqlCon.Open();
                 string query = "SELECT COUNT(1) FROM Users WHERE Username=@user AND Password=@password";
