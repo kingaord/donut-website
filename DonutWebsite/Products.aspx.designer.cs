@@ -7,7 +7,7 @@
 // </generowany automatycznie>
 //------------------------------------------------------------------------------
 
-namespace WebApplication2
+namespace DonutWebsite
 {
 
 

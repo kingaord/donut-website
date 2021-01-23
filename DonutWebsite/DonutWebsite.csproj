@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
+    <Content Include="Media\arrowDown.png" />
+    <Content Include="Style\AboutUsPage.css" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
@@ -76,6 +78,9 @@
     <Content Include="Contact.aspx" />
     <Content Include="ContentForm.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="Media\story3.png" />
+    <Content Include="Media\story2.png" />
+    <Content Include="Media\story1.png" />
     <Content Include="Media\donutWorry.jpg" />
     <Content Include="Media\favicon.jpg" />
     <Content Include="Media\navImg.jpg" />

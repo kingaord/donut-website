@@ -1,0 +1,25 @@
+﻿h1 {
+    font-family: Sacramento;
+    font-size: 60px;
+    margin: 20px 0 30px 0;
+    padding: 20px;
+    text-align: center;
+    color: #403f3d;
+    
+}
+
+.imgArrowDown {
+    height: 100px;
+    width: auto;
+}
+
+.storyWrapper {
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.imgStory {
+    height: 75vh;
+    width: auto;
+    margin: 0 30px 0 30px;
+}
