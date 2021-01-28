@@ -30,7 +30,7 @@
             <nav>
                 <a href="HomePage.aspx">
                     <asp:Image ID="homeBtn" class="home" runat="server" ImageUrl="Media/home.png"/></a>
-                <a href="AboutUs.aspx">o nas</a>
+                <a href="AboutUs.aspx">Nasza historia</a>
                 <a href="Products.aspx">produkty</a>
                 <a href="Contact.aspx">kontakt</a>
                 <a href="Blog.aspx">blog</a>
@@ -61,7 +61,7 @@
             </asp:ContentPlaceHolder>
         </div>
          <footer>
-            <p>©Aleksandra Artyszko, Kinga Ordecka, Kamila Artyszko CDV 2021</p>
+            <p>©Aleksandra Artyszko, Kinga Ordecka CDV 2021</p>
         </footer>
         </div>
 </body>

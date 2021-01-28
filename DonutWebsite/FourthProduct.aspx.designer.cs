@@ -11,17 +11,8 @@ namespace DonutWebsite
 {
 
 
-    public partial class WebForm1
+    public partial class FourthProduct
     {
-
-        /// <summary>
-        /// Kontrolka Image4.
-        /// </summary>
-        /// <remarks>
-        /// Pole generowane automatycznie.
-        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image4;
 
         /// <summary>
         /// Kontrolka Image1.
@@ -31,15 +22,6 @@ namespace DonutWebsite
         /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image Image1;
-
-        /// <summary>
-        /// Kontrolka Image2.
-        /// </summary>
-        /// <remarks>
-        /// Pole generowane automatycznie.
-        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image2;
 
         /// <summary>
         /// Kontrolka Image3.

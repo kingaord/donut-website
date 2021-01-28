@@ -20,7 +20,6 @@
         <h2>Osoby zarządzające: </h2>
         <p>Aleksandra Artyszko</p>
         <p>Kinga Ordecka</p>
-        <p>Kamila Artyszko</p>
     </div>
     </div></asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="contentBody3" runat="server">

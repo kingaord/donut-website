@@ -11,17 +11,8 @@ namespace DonutWebsite
 {
 
 
-    public partial class WebForm1
+    public partial class FirstProduct
     {
-
-        /// <summary>
-        /// Kontrolka Image4.
-        /// </summary>
-        /// <remarks>
-        /// Pole generowane automatycznie.
-        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image4;
 
         /// <summary>
         /// Kontrolka Image1.

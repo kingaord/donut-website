@@ -99,11 +99,29 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
-    <Content Include="App_Data\Database2.mdf" />
-    <Content Include="App_Data\Database2_log.ldf">
-      <DependentUpon>Database2.mdf</DependentUpon>
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="FirstProduct.aspx" />
+    <Content Include="FourthProduct.aspx" />
+    <Content Include="Media\donutcake.jpg" />
+    <Content Include="Media\fancydonut.jpg" />
+    <Content Include="Media\smalldonuts2.jpg" />
+    <Content Include="Media\kup.png" />
+    <Content Include="Media\withfruits.jpg" />
+    <Content Include="SecondProduct.aspx" />
+    <Content Include="Style\FirstProduct.css" />
+    <Content Include="Media\donuts2HP.jpg" />
+    <Content Include="Media\donuts2.jpg" />
+    <Content Include="Media\donutHP.jpg" />
+    <Content Include="Media\LaurKonsumentaZłoty2021.png" />
+    <Content Include="Media\premiumdonuts.png" />
+    <Content Include="Media\smalldonut.jpg" />
+    <Content Include="Style\Products.css" />
+    <Content Include="Style\HomePage.css" />
     <Content Include="Media\arrowDown.png" />
+    <Content Include="Media\us.png" />
     <Content Include="Style\AboutUsPage.css" />
     <Content Include="Blog.aspx" />
     <Content Include="Contact.aspx" />
@@ -121,6 +139,7 @@
     <Content Include="Style\LoginPage.css" />
     <Content Include="Style\MasterPage.css" />
     <Content Include="Style\ContentForm.css" />
+    <Content Include="ThirdProduct.aspx" />
     <Content Include="Web.config" />
     <Content Include="HomePage.aspx" />
   </ItemGroup>
@@ -153,6 +172,20 @@
     <Compile Include="ContentForm.aspx.designer.cs">
       <DependentUpon>ContentForm.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FirstProduct.aspx.cs">
+      <DependentUpon>FirstProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FirstProduct.aspx.designer.cs">
+      <DependentUpon>FirstProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FourthProduct.aspx.cs">
+      <DependentUpon>FourthProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FourthProduct.aspx.designer.cs">
+      <DependentUpon>FourthProduct.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -168,6 +201,13 @@
       <DependentUpon>Products.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecondProduct.aspx.cs">
+      <DependentUpon>SecondProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecondProduct.aspx.designer.cs">
+      <DependentUpon>SecondProduct.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -181,6 +221,13 @@
     </Compile>
     <Compile Include="HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThirdProduct.aspx.cs">
+      <DependentUpon>ThirdProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThirdProduct.aspx.designer.cs">
+      <DependentUpon>ThirdProduct.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
