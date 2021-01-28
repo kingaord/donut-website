@@ -19,16 +19,15 @@ namespace DonutWebsite
 
         protected void btnPublish_Click(object sender, EventArgs e)
         {
-            conn.Open();
 
-            String query = "INSERT INTO dbo.Table (PostTitle,PostContent) VALUES (@Title,@Content)";
+            String query = "INSERT INTO dbo.Posts (Title,Content) VALUES (@Title,@Content)";
             SqlCommand command = new SqlCommand(query, conn);
 
-            command.CommandType = CommandType.Text;
-            command.Parameters.AddWithValue("@Title", PostTitle);
-            command.Parameters.AddWithValue("@Content", PostContent);
-            command.ExecuteNonQuery();
+            command.Parameters.AddWithValue("@Title", PostTitle.Text);
+            command.Parameters.AddWithValue("@Content", PostContent.Text);
 
+            conn.Open();
+            command.ExecuteNonQuery();
             conn.Close();
 
         }
