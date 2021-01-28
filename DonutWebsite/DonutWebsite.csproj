@@ -136,6 +136,7 @@
     <Content Include="Media\home.png" />
     <Content Include="Products.aspx" />
     <Content Include="Style\Contact.Page.css" />
+    <Content Include="Style\Blog.css" />
     <Content Include="Style\LoginPage.css" />
     <Content Include="Style\MasterPage.css" />
     <Content Include="Style\ContentForm.css" />
