@@ -5,32 +5,24 @@ Dodawanie treści pączusiowej</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="contentBody" runat="server">
-        <form id="form2" runat="server">
-            <div>
-                <link href="Style/ContentForm.css" rel="stylesheet" />
-                <div class="wrapper">
-                <table>
-                    <tr>
-                        <h1>Dodaj treść:</h1>
-                        <td>
-                            <asp:Label ID="ptitle" runat="server" class="formText" Text="Tytuł"></asp:Label></td>
-                        <td class="auto-style1">
-                            <asp:TextBox ID="PostTitle" class="input" runat="server"></asp:TextBox></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <asp:Label ID="pcontent" runat="server" class="formText" Text="Treść"></asp:Label></td>
-                        <td class="auto-style1">
-                            <asp:TextBox ID="PostContent" runat="server" class="input"></asp:TextBox></td>
-                    </tr>
-                        <tr>
-                        <td>
-                            </td>
-                        <td class="auto-style1">
-                            <asp:Button ID="btnPublish" runat="server" class="publishBtn" Text="Publikuj" OnClick="btnPublish_Click" /></td>
-                    </tr>
-                </table>
-                </div>
+    <form id="form2" runat="server">
+        <div>
+            <link href="Style/ContentForm.css" rel="stylesheet" />
+            <div class="wrapper">
+                <h1>Dodaj post:</h1>
+                
+                <asp:Label ID="ptitle" runat="server" class="formText" Text="Tytuł"></asp:Label>
+                <div style="clear:both"></div>
+                <asp:TextBox ID="PostTitle" class="inputTitle" runat="server"></asp:TextBox>
+                <div style="clear:both"></div>
+
+                <asp:Label ID="pcontent" runat="server" class="formText" Text="Treść"></asp:Label>
+                <div style="clear:both"></div>
+                <asp:TextBox ID="PostContent" runat="server" class="inputContent" TextMode="MultiLine"></asp:TextBox>
+                <div style="clear:both"></div>
+
+                <asp:Button ID="btnPublish" runat="server" class="publishBtn" Text="Publikuj" OnClick="btnPublish_Click" />
             </div>
-        </form>
+        </div>
+    </form>
 </asp:content>
