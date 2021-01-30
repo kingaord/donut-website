@@ -11,7 +11,7 @@
            <div class="us-content">
            <div class="text-wrapper">
                <p>Pączkarnia została stworzona z marzeń o własnej firmie i szczerej miłości do słodyczy. Założona w
-                   2020 roku przez mistrza cukiernictwa i karmelarstwa Halinę Nowak, która swą pasją zaraził koleżankę.
+                   2020 roku przez mistrza cukiernictwa i karmelarstwa Halinę Nowak, która swą pasją zaraziła koleżankę.
                    Z małej, rodzinnej manufaktury z czasem przerodziła się w prężną wytwórnię. Grono stałych Klientów 
                    stopniowo się poszerzało, ci, którzy nam zaufali wracali zadowoleni, niejednokrotnie polecając wyroby dalej, 
                    a firma rozwijała skrzydła, poszerzając asortyment i dostosowując wyroby do zmieniających się czasów.</p>

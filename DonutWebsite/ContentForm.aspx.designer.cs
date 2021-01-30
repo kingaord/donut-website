@@ -24,15 +24,6 @@ namespace DonutWebsite
         protected global::System.Web.UI.HtmlControls.HtmlForm form2;
 
         /// <summary>
-        /// Kontrolka ptitle.
-        /// </summary>
-        /// <remarks>
-        /// Pole generowane automatycznie.
-        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ptitle;
-
-        /// <summary>
         /// Kontrolka PostTitle.
         /// </summary>
         /// <remarks>
@@ -42,15 +33,6 @@ namespace DonutWebsite
         protected global::System.Web.UI.WebControls.TextBox PostTitle;
 
         /// <summary>
-        /// Kontrolka pcontent.
-        /// </summary>
-        /// <remarks>
-        /// Pole generowane automatycznie.
-        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label pcontent;
-
-        /// <summary>
         /// Kontrolka PostContent.
         /// </summary>
         /// <remarks>
@@ -58,6 +40,15 @@ namespace DonutWebsite
         /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox PostContent;
+
+        /// <summary>
+        /// Kontrolka PPDate.
+        /// </summary>
+        /// <remarks>
+        /// Pole generowane automatycznie.
+        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label PPDate;
 
         /// <summary>
         /// Kontrolka btnPublish.
