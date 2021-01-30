@@ -15,21 +15,12 @@ namespace DonutWebsite
     {
 
         /// <summary>
-        /// Kontrolka labelTitle.
+        /// Kontrolka RepBlogDetails.
         /// </summary>
         /// <remarks>
         /// Pole generowane automatycznie.
         /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label labelTitle;
-
-        /// <summary>
-        /// Kontrolka labelContent.
-        /// </summary>
-        /// <remarks>
-        /// Pole generowane automatycznie.
-        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label labelContent;
+        protected global::System.Web.UI.WebControls.Repeater RepBlogDetails;
     }
 }

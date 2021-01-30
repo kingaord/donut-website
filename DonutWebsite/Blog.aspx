@@ -7,17 +7,16 @@ Pączkologia</asp:Content>
     <link href="Style/Blog.css" rel="stylesheet" />
     <div class="wrapper">
         <h1>Blog</h1>
-        <div style="clear:both"></div>
-        <br/>
-        <h2>
-            <asp:Label ID="labelTitle" runat="server"></asp:Label>
-        </h2>
-        <div style="clear:both"></div>
-        <br/>
-        <asp:Label ID="labelContent" runat="server"></asp:Label>
+        <asp:Repeater ID="RepBlogDetails" runat="server">
+            <SeparatorTemplate>
+                <br /> <br />
+            </SeparatorTemplate>
+            <ItemTemplate>
+                <date><%#Eval("PostedDate", "{0: dd MMMM yyyy}") %></date>
+                <h2><%#Eval("Title") %></h2>
+                <p><%#Eval("Content") %></p>
+            </ItemTemplate>
+        </asp:Repeater>
     </div>
 </asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="contentBody2" runat="server">
-</asp:Content>
-<asp:Content ID="Content5" ContentPlaceHolderID="contentBody3" runat="server">
-</asp:Content>
+

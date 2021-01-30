@@ -9,17 +9,19 @@ Dodawanie treści pączusiowej</asp:Content>
         <div>
             <link href="Style/ContentForm.css" rel="stylesheet" />
             <div class="wrapper">
-                <h1>Dodaj post:</h1>
+                <h1>Dodaj pączusiowy post:</h1>
                 
-                <asp:Label ID="ptitle" runat="server" class="formText" Text="Tytuł"></asp:Label>
-                <div style="clear:both"></div>
-                <asp:TextBox ID="PostTitle" class="inputTitle" runat="server"></asp:TextBox>
+                <asp:TextBox ID="PostTitle" class="inputTitle" runat="server"
+                    onclick="if (this.value == 'Tytuł...') {this.value='' ;this.style.color = 'black'}" 
+                    onblur="if(this.value.length==0) { this.value='Tytuł...';this.style.color = 'grey'}">Tytuł...</asp:TextBox>
                 <div style="clear:both"></div>
 
-                <asp:Label ID="pcontent" runat="server" class="formText" Text="Treść"></asp:Label>
+                <asp:TextBox ID="PostContent" runat="server" class="inputContent" TextMode="MultiLine"
+                    onclick="if (this.value == 'Tutaj wpisz treść posta') {this.value='' ;this.style.color = 'black'}" 
+                    onblur="if(this.value.length==0) { this.value='Tutaj wpisz treść posta';this.style.color = 'grey'}">Tutaj wpisz treść posta</asp:TextBox>
                 <div style="clear:both"></div>
-                <asp:TextBox ID="PostContent" runat="server" class="inputContent" TextMode="MultiLine"></asp:TextBox>
-                <div style="clear:both"></div>
+
+                <asp:Label ID="PPDate" runat="server" class="formText" Text="" Visible="false"></asp:Label>
 
                 <asp:Button ID="btnPublish" runat="server" class="publishBtn" Text="Publikuj" OnClick="btnPublish_Click" />
             </div>
