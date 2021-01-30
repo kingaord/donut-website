@@ -14,7 +14,7 @@ Pączkologia</asp:Content>
             <ItemTemplate>
                 <date><%#Eval("PostedDate", "{0: dd MMMM yyyy}") %></date>
                 <h2><%#Eval("Title") %></h2>
-                <p><%#Eval("Content") %></p>
+                <p class="p"><%#Eval("Content") %></p>
             </ItemTemplate>
         </asp:Repeater>
     </div>

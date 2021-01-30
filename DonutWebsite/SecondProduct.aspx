@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="SecondProduct.aspx.cs" Inherits="DonutWebsite.SecondProduct" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">Małe pączusie
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 

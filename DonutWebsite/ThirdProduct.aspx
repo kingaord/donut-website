@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ThirdProduct.aspx.cs" Inherits="DonutWebsite.ThirdProduct" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">Z lukrem
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
     <link href="Style/FirstProduct.css" rel="stylesheet" />
