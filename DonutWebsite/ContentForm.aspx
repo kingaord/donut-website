@@ -5,7 +5,7 @@ Dodawanie treści pączusiowej</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="contentBody" runat="server">
-    <form id="form2" runat="server">
+    <div id="form2">
         <div>
             <link href="Style/ContentForm.css" rel="stylesheet" />
             <div class="wrapper">
@@ -26,5 +26,5 @@ Dodawanie treści pączusiowej</asp:Content>
                 <asp:Button ID="btnPublish" runat="server" class="publishBtn" Text="Publikuj" OnClick="btnPublish_Click" />
             </div>
         </div>
-    </form>
+    </div>
 </asp:content>

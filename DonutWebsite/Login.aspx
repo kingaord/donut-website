@@ -3,7 +3,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="title" runat="server">Logowanie
 </asp:Content>
 <asp:content id="Content1" ContentPlaceHolderID="ContentBody" runat="server">
-        <form id="form1" runat="server">
+        <div id="form1">
             <div>
                 <link href="Style/LoginPage.css" rel="stylesheet" />
                 <div class="wrapper">
@@ -35,5 +35,5 @@
                 </table>
                 </div>
             </div>
-        </form>
+        </div>
 </asp:content>

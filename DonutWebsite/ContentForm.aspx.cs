@@ -11,7 +11,7 @@ namespace DonutWebsite
 {
     public partial class ContentForm : System.Web.UI.Page
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=~\DonutWebsite\App_Data\Database1.mdf;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
             if(!Page.IsPostBack)

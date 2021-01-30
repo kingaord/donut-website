@@ -12,7 +12,7 @@ namespace DonutWebsite
 {
     public partial class Blog : System.Web.UI.Page
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\kinga\Documents\Git\donut-website\DonutWebsite\App_Data\Database1.mdf;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True");
 
         protected void Page_Load(object sender, EventArgs e)
         {

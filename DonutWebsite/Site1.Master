@@ -25,6 +25,7 @@
       --> 
 </head>
 <body>
+    <form runat="server" >
         <link href="Style/MasterPage.css" rel="stylesheet" type="text/css" runat="server"/>
         <div>
             <nav>
@@ -38,10 +39,10 @@
                     { %>
                     <a href="Login.aspx">zaloguj</a>
                 <% } else { %>
-                    <form runat="server" class="logoutForm">
+                    <div  class="logoutForm">
                         <asp:LinkButton runat="server" Text="Wyloguj" OnClick="btnLogout_Click"></asp:LinkButton>
-                        <a href="LoggedIn/ContentForm.aspx">dodawanie treści</a>
-                    </form>
+                        <a href="ContentForm.aspx">dodawanie treści</a>
+                    </div>
                 <% } %>
                 
             </nav>
@@ -65,5 +66,6 @@
             <p class="footer-text">©Aleksandra Artyszko, Kinga Ordecka CDV 2021</p>
         </footer>
         </div>
+        </form>
 </body>
 </html>

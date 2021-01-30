@@ -15,15 +15,6 @@ namespace DonutWebsite
     {
 
         /// <summary>
-        /// Kontrolka form2.
-        /// </summary>
-        /// <remarks>
-        /// Pole generowane automatycznie.
-        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form2;
-
-        /// <summary>
         /// Kontrolka PostTitle.
         /// </summary>
         /// <remarks>
