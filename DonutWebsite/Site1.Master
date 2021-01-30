@@ -40,9 +40,10 @@
                 <% } else { %>
                     <form runat="server" class="logoutForm">
                         <asp:LinkButton runat="server" Text="Wyloguj" OnClick="btnLogout_Click"></asp:LinkButton>
+                        <a href="LoggedIn/ContentForm.aspx">dodawanie treści</a>
                     </form>
                 <% } %>
-                <a href="ContentForm.aspx">dodawanie treści</a>
+                
             </nav>
             <header>
                 <asp:Image ID="navImg" class="dountImg" runat="server" ImageUrl="Media/navImg.jpg" />
