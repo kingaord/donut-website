@@ -9,7 +9,7 @@ Produkty pączusiowe</asp:Content>
     <div class="products-wrapper">
         <div class="text-wrapper">
             <h2>Produkty</h2>
-            <p>Oferujemy 4 kategorie produktów. Kliknij w wybrany, aby dowiedzieć się więcej</p>
+            <p class="p">Oferujemy 4 kategorie produktów. Kliknij w wybrany, aby dowiedzieć się więcej</p>
         </div>
         <div class="imgwrap">
             <div class="container"> 

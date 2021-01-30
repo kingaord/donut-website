@@ -11,7 +11,7 @@
     </div>
         <div class="block">
             <div class="description">
-                 <h3>Pyszne, prawdziwe, ręcznie robione pączki, wypieki z najlepszych owoców kupionych na logalnym bazarku. Dobór owoców różni się sezonowo. W środku pączka znajduje się wypełnienie w postaci dżemu w zależności od smaku. Na wierzchu zaś autorski lukier wpasowujący się w wybrany smak, który Doskonałe kawy z całego świata od Mistrza Włoch w paleniu kawy Rubensa Gardellego. Obecnie w ofercie posiadamy:</h3>
+                 <h3>Pyszne, prawdziwe, ręcznie robione pączki, wypieki z najlepszych owoców kupionych na logalnym bazarku. Dobór owoców różni się sezonowo. W środku pączka znajduje się wypełnienie w postaci dżemu w zależności od smaku. Na wierzchu zaś autorski lukier. Doskonale smakuje z kawami z całego świata. Obecnie w ofercie posiadamy:</h3>
                 <p>* czarną porzeczkę</p>
                 <p>* mango</p>
                 <p>* borówkę</p>

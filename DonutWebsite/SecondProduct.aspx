@@ -12,7 +12,7 @@
     </div>
         <div class="block">
             <div class="description">
-                 <h3>Pyszne, prawdziwe, ręcznie robione pączki, wypieki z najlepszych składników. Małe pączusie nie posiadają wypełnienia jednak ich niesamowity smak zawdzięczami składnikom najwższej jakości. Jajka z zaprzyjeźnionej hodowli kurek z wolnego wybiegu oraz nabiał z własnej gospody. </h3>
+                 <h3>Pyszne, prawdziwe, ręcznie robione pączki, wypieki z najlepszych składników. Małe pączusie nie posiadają wypełnienia jednak ich niesamowity smak zawdzięczamy składnikom najwższej jakości. Jajka z zaprzyjeźnionej hodowli kurek z wolnego wybiegu oraz nabiał z własnej gospody. </h3>
                 </div>
             <div class="img-wrapper">
                 <div class="image">

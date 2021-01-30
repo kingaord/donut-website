@@ -43,7 +43,7 @@ footer {
     padding: 20px 0;
 }
 
-footer p {
+.footer-text {
     padding: 1.5vh;
     font-family: sans-serif;
     font-size: 12px;

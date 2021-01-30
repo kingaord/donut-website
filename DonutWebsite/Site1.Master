@@ -61,7 +61,7 @@
             </asp:ContentPlaceHolder>
         </div>
          <footer>
-            <p>©Aleksandra Artyszko, Kinga Ordecka CDV 2021</p>
+            <p class="footer-text">©Aleksandra Artyszko, Kinga Ordecka CDV 2021</p>
         </footer>
         </div>
 </body>

@@ -11,8 +11,8 @@
     </div>
         <div class="block">
             <div class="description">
-                 <h3>Premium pączki czyli prawdziwy FOODPORN. Jeśli kochasz słodycze tak jak my, zaskoczymy Cię niejednokrotnie czekoladowymi wariacjami, zaczynając od owoców w czekoladzie przez chipsy w czekoladzie, aż po żelki w czekoladzie i wiele innych kombinacji ze słynnymi słodyczami! :)
-                 <p>Ceny w zależności od pączka 7pln / 8 pln / 9pln</p>
+                 <h3>Premium pączki czyli prawdziwy FOODPORN. Jeśli kochasz słodycze tak jak my, zaczynając od brownie z płatkami kukurydzianymi w karmelu i kremem Kinder Bueno, cookie Dough (ciasteczkowa) wypełniona solonym karmelem z ganaszem z białej czekolady czy  popsicle czekoladowe.
+                 <p>Ceny w zależności od pączka 7/8/9 pln</p>
                  </h3>
                 </div>
             <div class="img-wrapper">

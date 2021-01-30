@@ -14,12 +14,12 @@
     <div class="second">
         <h1>Jak możesz się z nami skontaktować?</h1>
         <h2>Biuro: </h2>
-        <p>Dobra Pączkarnia Sp. z o. o. Sp. k.</p>
-        <p>ul. 5 lipca 46,</p>
-        <p>70-374 Szczecin</p>
+        <p class="p">Dobra Pączkarnia Sp. z o. o. Sp. k.</p>
+        <p class="p">ul. 5 lipca 46,</p>
+        <p class="p">70-374 Szczecin</p>
         <h2>Osoby zarządzające: </h2>
-        <p>Aleksandra Artyszko</p>
-        <p>Kinga Ordecka</p>
+        <p class="p">Aleksandra Artyszko</p>
+        <p class="p">Kinga Ordecka</p>
     </div>
     </div></asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="contentBody3" runat="server">
