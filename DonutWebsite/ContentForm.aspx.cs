@@ -28,13 +28,13 @@ namespace DonutWebsite
 
             command.Parameters.AddWithValue("@Title", PostTitle.Text);
             command.Parameters.AddWithValue("@Content", PostContent.Text);
-            command.Parameters.AddWithValue("@PostedDate", PPDate.Text);
+            command.Parameters.AddWithValue("@PostedDate", DateTime.Now);
 
             conn.Open();
             command.ExecuteNonQuery();
             conn.Close();
 
-            Response.Redirect("../Blog.aspx");
+            Response.Redirect("Blog.aspx");
 
         }
 
